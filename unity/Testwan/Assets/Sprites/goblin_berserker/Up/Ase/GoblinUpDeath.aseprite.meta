@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: a8301b68435500f4a9089b7e4732f57a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: GoblinUpDeath_Frame_0
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 34
+      height: 28
+    spriteID: 41e489ad4647dfd449d8d300e6154667
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: GoblinUpDeath_Frame_1
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 4
+      width: 32
+      height: 28
+    spriteID: 2eb247c1c6406634da202b9f6ff0d524
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 4}
+  - name: GoblinUpDeath_Frame_2
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 4
+      width: 32
+      height: 28
+    spriteID: d643430639191f947b023ea1bfbf80a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 4}
+  - name: GoblinUpDeath_Frame_3
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.22222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 40
+      width: 32
+      height: 27
+    spriteID: c192a6c4d3070f547beff698932cc7f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 40}
+  - name: GoblinUpDeath_Frame_4
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.24}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 40
+      width: 32
+      height: 25
+    spriteID: 9acc6803b850eec4e818aedaa8339f17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 40}
+  - name: GoblinUpDeath_Frame_5
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 40
+      width: 34
+      height: 12
+    spriteID: b0c8b69d158896f45a619394c26924b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 40}
+  - name: GoblinUpDeath_Frame_6
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 75
+      width: 32
+      height: 12
+    spriteID: a5fb72443ed3cdd44a079a9cc978b3e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 75}
+  - name: GoblinUpDeath_Frame_7
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 75
+      width: 32
+      height: 12
+    spriteID: 87ac5fc7ba15dfa46be810bd8af7020f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 75}
+  - name: GoblinUpDeath_Frame_8
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 75
+      width: 32
+      height: 12
+    spriteID: c985058fcb8c53749accca4ade9a8ff1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 75}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1997977946
+    name: GoblinUpDeath
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: GoblinUpDeath_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 7
+        y: 7
+        width: 34
+        height: 28
+      spriteId: 41e489ad4647dfd449d8d300e6154667
+    - name: GoblinUpDeath_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 7
+        width: 32
+        height: 28
+      spriteId: 2eb247c1c6406634da202b9f6ff0d524
+    - name: GoblinUpDeath_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 7
+        width: 32
+        height: 28
+      spriteId: d643430639191f947b023ea1bfbf80a0
+    - name: GoblinUpDeath_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 6
+        width: 32
+        height: 27
+      spriteId: c192a6c4d3070f547beff698932cc7f9
+    - name: GoblinUpDeath_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 8
+        y: 6
+        width: 32
+        height: 25
+      spriteId: 9acc6803b850eec4e818aedaa8339f17
+    - name: GoblinUpDeath_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 7
+        y: 6
+        width: 34
+        height: 12
+      spriteId: b0c8b69d158896f45a619394c26924b5
+    - name: GoblinUpDeath_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 8
+        y: 6
+        width: 32
+        height: 12
+      spriteId: a5fb72443ed3cdd44a079a9cc978b3e6
+    - name: GoblinUpDeath_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 8
+        y: 6
+        width: 32
+        height: 12
+      spriteId: 87ac5fc7ba15dfa46be810bd8af7020f
+    - name: GoblinUpDeath_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 6
+        width: 32
+        height: 12
+      spriteId: c985058fcb8c53749accca4ade9a8ff1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 48}
