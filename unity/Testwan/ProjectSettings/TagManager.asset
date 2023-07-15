@@ -38,12 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 2884749381
     locked: 0
-  - name: Props
-    uniqueID: 1073923595
+  - name: Water
+    uniqueID: 1301441001
+    locked: 0
+  - name: Decoration
+    uniqueID: 3692655843
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Obstacles
+    uniqueID: 864935441
     locked: 0
