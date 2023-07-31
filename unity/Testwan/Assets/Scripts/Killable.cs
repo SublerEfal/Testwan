@@ -6,6 +6,10 @@ using UnityEngine;
 public class Killable : MonoBehaviour
 {
     [SerializeField] int maxHitpoints = 100;
+    [SerializeField] int healingPerInterval = 0;
+    [SerializeField] float healingInterval = 1f;
+    [SerializeField] float currentHealingCooldown = 1f;
+
     int currentHitpoints;
 
     private Action onKillHandler;
@@ -17,7 +21,16 @@ public class Killable : MonoBehaviour
 
     void Update()
     {
+        this.CheckHeal();
         this.CheckKilled();
+    }
+
+    private void CheckHeal()
+    {
+        currentHealingCooldown -= Time.deltaTime;
+        if (currentHealingCooldown > 0) return;
+        currentHitpoints = Math.Min(currentHitpoints + healingPerInterval, maxHitpoints);
+        currentHealingCooldown = healingInterval;
     }
 
     private void CheckKilled()
@@ -32,6 +45,11 @@ public class Killable : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        this.currentHitpoints -= damage;
     }
 
     public void ToFullHealth()

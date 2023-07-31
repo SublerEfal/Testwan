@@ -64,6 +64,11 @@ public class Player : MonoBehaviour
         myRigidBody.velocity = new Vector2(myRigidBody.velocity.x + xSpeed, myRigidBody.velocity.y + ySpeed);
     }
 
+    public Killable GetKillable()
+    {
+        return this.killable;
+    }
+
     void Respawn()
     {
         this.transform.position = this.spawn.transform.position;
