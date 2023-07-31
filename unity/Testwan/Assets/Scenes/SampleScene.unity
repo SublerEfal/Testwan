@@ -10285,14 +10285,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 450130851619781811, guid: 7c229a16ab28cf541b7b74e720780d7d, type: 3}
-      propertyPath: healingInterval
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 450130851619781811, guid: 7c229a16ab28cf541b7b74e720780d7d, type: 3}
-      propertyPath: healingPerInterval
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 3380045989421353723, guid: 7c229a16ab28cf541b7b74e720780d7d, type: 3}
       propertyPath: m_RootOrder
       value: 4
