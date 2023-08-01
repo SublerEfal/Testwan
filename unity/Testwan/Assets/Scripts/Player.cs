@@ -6,11 +6,15 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 500f;
+    public float vertical = Input.GetAxisRaw("Vertical");
+    public float horizontal = Input.GetAxisRaw("Horizotal");
     static readonly float diagonalModifier = 0.71f;
 
     private Rigidbody2D myRigidBody;
     private PlayerSpawn spawn;
     private Killable killable;
+    public Animator animator;
+    Vector2 movement;
 
     void Start()
     {
@@ -41,18 +45,37 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             ySpeed = moveSpeed * Time.deltaTime;
+            Debug.Log(ySpeed);
+            animator.SetFloat("Vertical", ySpeed);
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Speed", 1);
         }
+        
         if (Input.GetKey(KeyCode.A))
         {
             xSpeed = -moveSpeed * Time.deltaTime;
+            Debug.Log(xSpeed);
+            animator.SetFloat("Horizontal", xSpeed);
+            animator.SetFloat("Vertical", 0);
+            animator.SetFloat("Speed", 1);
         }
+        
         if (Input.GetKey(KeyCode.S))
         {
             ySpeed = -moveSpeed * Time.deltaTime;
+            Debug.Log(ySpeed);
+            animator.SetFloat("Vertical", ySpeed);
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Speed", 1);
         }
+        
         if (Input.GetKey(KeyCode.D))
         {
             xSpeed = moveSpeed * Time.deltaTime;
+            Debug.Log(xSpeed);
+            animator.SetFloat("Horizontal", xSpeed);
+            animator.SetFloat("Vertical", 0);
+            animator.SetFloat("Speed", 1);
         }
 
         if (ySpeed != 0f && xSpeed != 0f)
