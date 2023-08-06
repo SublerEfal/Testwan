@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        this.target = FindObjectOfType<Player>().gameObject;
+        this.target = FindObjectOfType<PlayerMovement>().gameObject;
         this.rigidBody = GetComponent<Rigidbody2D>();
     }
 

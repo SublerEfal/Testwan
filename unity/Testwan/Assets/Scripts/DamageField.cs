@@ -22,7 +22,7 @@ public class DamageField : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (currentCooldownSeconds > 0) return;
-        Player player = collision.gameObject.GetComponent<Player>();
+        PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();
         if (!player) return;
         player.GetKillable().TakeDamage(damage);
         currentCooldownSeconds = cooldownSeconds;
